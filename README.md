@@ -62,10 +62,6 @@ Explore the functions provided by this library to streamline your JavaScript or 
 
 The library is flexible, easy to use, and versatile, making it suitable for a wide range of projects, from basic data manipulation to complex mathematical calculations. Each function is thoroughly tested and documented to ensure you can easily integrate them into your projects.
 
-## License
-
-This project is open-source and is available under the [MIT License](LICENSE). You are free to use, modify, and distribute this project for any purpose.
-
 ## How to Contribute
 
 Contributions to this project are welcome. To contribute, follow these steps:
