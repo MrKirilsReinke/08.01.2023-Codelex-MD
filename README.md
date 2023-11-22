@@ -10,7 +10,6 @@ This TypeScript library provides a collection of utility functions that can help
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
 - [Features](#features)
 - [How to Contribute](#how-to-contribute)
 
