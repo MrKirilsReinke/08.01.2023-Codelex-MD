@@ -32,18 +32,11 @@ const removeDuplicates2 = (arrayOfNumbers: number[]): number[] => {
     for (let i = 0; i < arrayOfNumbers.length; i++) {
         const currentValue = arrayOfNumbers[i]
 
-        if (arrayOfUniqueNumbers.length === 0) {
-            arrayOfUniqueNumbers.push(currentValue)
+        if (arrayOfUniqueNumbers.find(currentUniqueValue => currentUniqueValue === currentValue) && arrayOfUniqueNumbers.find(currentUniqueValue => currentUniqueValue !== undefined)) {
+            continue
         } else {
-            for (let j = 0; j < arrayOfNumbers.length; j++) {
-                if (arrayOfUniqueNumbers.find(currentUniqueValue => currentUniqueValue === currentValue)) {
-                    continue
-                } else {
-                    arrayOfUniqueNumbers.push(currentValue)
-                }
-            }
+            arrayOfUniqueNumbers.push(currentValue)
         }
-
     }
 
     return arrayOfUniqueNumbers;
